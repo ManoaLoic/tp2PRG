@@ -36,8 +36,8 @@ public class Bean4 {
         return "affichage_4?nb=" + nombre + "&amp;faces-redirect=true";
     }
     
-    public String retourFormulaire() {
-        return "formulaire_4?nb=" + nombre + "&amp;faces-redirect=true";
-    }
+//    public String retourFormulaire() {
+//        return "formulaire_4?nb=" + nombre + "&amp;faces-redirect=true";
+//    }
 
 }
