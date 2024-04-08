@@ -33,7 +33,7 @@ public class Bean {
     }
 
     public String afficher() {
-        return "affichage__3?nb=" + nombre + "&amp;faces-redirect=true";
+        return "affichage_3?nb=" + nombre + "&amp;faces-redirect=true";
     }
 
 }

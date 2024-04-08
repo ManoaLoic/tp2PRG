@@ -4,14 +4,18 @@
  */
 package tp.tp2.jsf;
 
-import java.util.ArrayList;
-import java.util.List;
 import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
+import java.util.ArrayList;
+import java.util.List;
 
-@Named(value = "bean4")
+/**
+ *
+ * @author Manoa Loic
+ */
+@Named(value = "bean__2")
 @RequestScoped
-public class Bean4 {
+public class Bean__2 {
 
     private int nombre;
 
@@ -33,11 +37,7 @@ public class Bean4 {
     }
 
     public String afficher() {
-        return "affichage_4?nb=" + nombre + "&amp;faces-redirect=true";
+        return "affichage__4?nb=" + nombre + "&amp;faces-redirect=true";
     }
     
-//    public String retourFormulaire() {
-//        return "formulaire_4?nb=" + nombre + "&amp;faces-redirect=true";
-//    }
-
 }
